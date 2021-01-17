@@ -12,10 +12,22 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="./static/css/style.css">
-
+  
 </head>
 
 <body class= "bg-light">
+ <div class="row" >
+   <div class= "col-12 m-2">
+    <nav class="navbar navbar-light bg-white">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"> UFO Sightings
+          <img src ="https://cdn0.iconfinder.com/data/icons/space-and-sci-fi/32/Space_alien-512.png" class="" width="32" height="32">
+        </span>
+      </div>
+    </nav>
+   </div>
+ </div>
+ 
   <div class="container">
     <div class ="row">
       <div class = "col mx-auto">
@@ -24,16 +36,25 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <form id="form">
-          <div class="form-group">
-            <label for="patient-form">UFO Sightings</label>
-            <input class="form-control" id="input-feild" name="patient-form" type="text" placeholder="m/d/yyyy">
+        <div class = "card">
+          <h3 class= "card-header text-center"> UFO Sightings</h2>
+          <div class= "card-body">
+            <form id="form">
+              <div class="form-group">
+                  <h5 class="card-text">Filter date:</h5>
+                  <div class="col-3">
+                    <input class="form-control ps-0" id="input-feild" name="patient-form" type="text" placeholder="mm/dd/yyyy">
+                  </div>
+                </div>
+              <button id="button" type="button" class="btn btn-primary">Enter</button>
+            </form>
           </div>
-          <button id="button" type="button" class="btn btn-default">Enter</button>
-        </form>
+        </div>
+    
+       
       </div>
     </div>
-    <table class="table table-bordered">
+    <table class="table table-bordered bg-white">
         <thead>
           <tr>
             <th scope="col">Date</th>
