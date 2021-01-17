@@ -1,7 +1,7 @@
 # javascript-challenge
 
 
-The objective of this challenge was to allow users to filter a table of data for specific values using a dataset of UFO Sightings in the US in January 2010.
+The objective of this challenge was to allow users to filter a table of data for specific values. The dataset is of UFO Sightings in the US from January 2010.
 
 This is the landing page: 
 
