@@ -11,7 +11,7 @@ This is the filter by date section:
 
 <img src="UFO-level-1\static\images\filter_date.png">
 
-This is the results aftering entering a date: 
+These are the results aftering filtering by date: 
 
 <img src="UFO-level-1\static\images\results.png">
 
