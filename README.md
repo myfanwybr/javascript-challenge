@@ -5,4 +5,4 @@ The objective of this challenge was to allow users to filter a table of data for
 
 This is my main page: 
 
-<img src="images/main.png">
+<img src="UFO-level-1\static\images\main.png">
